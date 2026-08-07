@@ -1,0 +1,28 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Data validation
+pydantic==2.9.2
+
+# Machine Learning
+scikit-learn==1.5.2
+pandas==2.2.3
+numpy==1.26.4
+joblib==1.4.2
+
+# Security / network analysis (all free, no API keys required)
+cryptography==43.0.1
+requests==2.32.3
+python-whois==0.9.4
+tldextract==5.1.2
+dnspython==2.6.1
+beautifulsoup4==4.12.3
+
+# Database (PostgreSQL — free/open-source; run locally via free Docker image
+# or use a free-tier hosted instance e.g. Render/Railway/Neon free plan)
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.9
+
+# CORS / env
+python-dotenv==1.0.1
