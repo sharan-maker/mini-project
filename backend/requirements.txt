@@ -19,10 +19,7 @@ tldextract==5.1.2
 dnspython==2.6.1
 beautifulsoup4==4.12.3
 
-# Database (PostgreSQL — free/open-source; run locally via free Docker image
-# or use a free-tier hosted instance e.g. Render/Railway/Neon free plan)
-sqlalchemy==2.0.35
-psycopg2-binary==2.9.9
+
 
 # CORS / env
 python-dotenv==1.0.1
