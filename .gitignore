@@ -217,4 +217,9 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-venv/dataset/dataset.csv
+venv/
+dataset/dataset.csv
+
+node_modules/
+dist/
+.env
